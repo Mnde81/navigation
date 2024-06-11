@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {    
+    display: inline-block; 
+    width: 100%; 
+    margin: 0;
+}
+
+aside {    
+    background-color: #DDEDEA; 
+    padding: 40px;
+    width: 150px; 
+    float: left; 
+    height: 500px;
+    
+    
+}
+
+main { 
+    background-color: #F7F7F7;       
+    width: calc(100% - 150px); 
+    float: left; 
+    height: 500px;
+}
+
