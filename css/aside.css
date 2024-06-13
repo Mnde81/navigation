@@ -1,0 +1,42 @@
+
+aside {    
+    background-color: #FFFFFF; 
+    padding: 40px;  
+    padding-left: 0;      
+}
+
+
+.logo {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 40px;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+
+
+.nav-list {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    padding: 10px 10px;
+    margin-left: 95px;
+    margin-right: 55px;
+    margin-top: 30px;
+    border-radius: 10px;        
+}
+
+.active {
+    background-color: #DDEDEA;
+    }
+
+.nav-icons {
+    width: 40px;
+}
