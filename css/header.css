@@ -1,0 +1,14 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.greeting {
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: 700;
+
+}
