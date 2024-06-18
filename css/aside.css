@@ -7,8 +7,8 @@ aside {
 
 
 .logo {
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 60px;
+    margin-top: 20px;
     width: 40px;
 }
 
@@ -20,23 +20,23 @@ aside {
 
 
 .nav-list {
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
 
 .link {
     padding: 10px 10px;
-    margin-left: 95px;
-    margin-right: 55px;
+    margin-left: 50px;
+    margin-right: 10px;
     margin-top: 30px;
     border-radius: 10px;        
 }
 
 .active {
     background-color: #DDEDEA;
-    }
+}
 
 .nav-icons {
-    width: 40px;
+    width: 30px;
 }
