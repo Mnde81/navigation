@@ -13,6 +13,82 @@ body {
 
 
 main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "dashboard datasets users"
+    "real-time billing campaign";
+    align-items: start;
+    align-content: start;
+    gap: 30px;
+    padding: 10px 50px;
     background-color: #F7F7F7;        
 }
 
+.dashboard {
+    grid-area: dashboard;
+    color: white;
+   
+}
+
+.datasets {
+    grid-area: datasets;
+    
+}
+
+.users {
+    grid-area: users;
+    
+}
+
+.real-time {
+    grid-area: real-time;
+    
+}
+
+.billing {
+    grid-area: billing;
+    
+}
+
+.campaign {
+    grid-area: campaign;
+    
+}
+
+.block {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    
+}
+
+
+
+.block.block-bg {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 30px;
+
+}
+
+.block > .title {
+    margin:  0;    
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
+
+.block > .content {
+    margin-top: 5px;
+   
+
+}
+
+.block .fa {
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+}
