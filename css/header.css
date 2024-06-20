@@ -1,15 +1,13 @@
 .main-header {
     grid-area: header;
     display: flex;
-    justify-content: space-between;
-    /* padding: 10px; */
+    justify-content: space-between; 
     align-items: center;
 
 }
 
 .greeting {
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 2px;
     font-weight: 700;
-
 }
