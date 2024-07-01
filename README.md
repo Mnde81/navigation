@@ -16,12 +16,11 @@ Design: [Navigation](https://dribbble.com/shots/13751737-Home-Navigation-Explora
 ## 🎯 Project features/goals
 
 -   Github pages
--   icons (FontAwesome, ReactIcons)
+-   icons (FontAwesome)
 -   CSS files
 -   CSS flex
 -   CSS grid
--   SVG images
--   **NO** responsive design
+-   responsive design
 
 ## 🧰 Getting Started
 
